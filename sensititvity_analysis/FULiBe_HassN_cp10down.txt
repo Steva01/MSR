@@ -1,0 +1,113 @@
+
+baffle_thk                        12.5e-3    circum_pitch                      25.0e-3
+cost_model                       simplest    disk_cut                           0.4500
+dncmr_or                             0.00    donut_cut                          0.4500
+duty_W                            66.67e6    gap                              9.525e-3
+geometry                         cylinder    has_baffles                             Y
+has_grooves                             Y    ht_leak_factor                       0.80
+hx_ir_max                            0.85    hx_ir_min                            0.70
+hx_label             TEI_Hass_N_FULiBecp-    hx_mat                            alloy_n
+hx_mat_usd_p_kg                     50.00    ntube_sheets                            2
+pd_leak_factor                       0.52    promex_path          C:\Users\Zebrakk\Desktop\Kamil\Kamil\Kamil\skola\predmety\Diplomka\Perl_Script\0.15
+pump_usd_p_kW                       200.0    radial_pitch                      25.0e-3
+relax_factor                          1.0    run_label            TEI_Hass_N_FULiBecp-
+run_title            Sensitivity_analysis_cp-    shell_cold_C                          600
+shell_fluid                    tei_fulibe    shell_heat_method            constant_c_p
+shell_hot_C                           700    shell_hot_end_Pa                    0.3e6
+shell_ht_func                   ornl_2815    shell_pd_func                   ornl_2815
+shell_thk                        31.25e-3    stress_model                         stub
+time_stamp           2017-11-21T11:03:41Z    tol_W_pct                             0.1
+tube_arrange                            R    tube_od                           14.5e-3
+tube_sheet_thk                   121.0e-3    tube_wall_mat                     alloy_n
+tube_wall_thk                      2.5e-3    tubes_cold_C                          500
+tubes_fluid                     flibe_ucb    tubes_heat_method            constant_c_p
+tubes_hot_C                           600    tubes_hot_end_Pa                 0.5241e6
+tubes_ht_func                   ornl_2815    tubes_pd_func                   ornl_2815
+user_file                    ornl2815.xml    wall_ht_func                     circular
+wants_stress                            N    
+best_usd= 1516091 hx_ir=  0.7250 baf_ctc=  0.1450 ntubes=2650 nbaffles=39 hx_len=   5.655
+best_usd= 1497270 hx_ir=  0.7250 baf_ctc=  0.1468 ntubes=2650 nbaffles=38 hx_len=   5.578
+
+Promex version/variant:0.15/tei_fulibe   2017-11-21T11:03:41Z
+Sensitivity_analysis_cp-                                                
+Tube-side pressure drop correlation:     ornl_2815
+Tube-side heat transfer correlation:     ornl_2815
+Shellside pressure drop correlation:     ornl_2815
+Shellside heat transfer correlation:     ornl_2815
+Tube wall heat transfer correlation:     circular
+Cost model:                   simplest   Stress model:                     stub
+Tube_side heat method:    constant_c_p   Shellside heat method:    constant_c_p
+Heat load required(MW)            66.7   Increment power tolerance(%)     0.100
+Tubeside hot end pressure(MPa)   0.524   Shell hot end pressure (MPa)     0.300
+High temp tube side  C           600.0   High temp shell side(C)          700.0
+Low temp tube side   C           500.0   Low temp shell side  C           600.0
+Heat transfer leakage factor     0.800   Pressure leakage factor          0.520
+Tube wall material             alloy_n   HX material             alloy_n
+Tubeside fluid               flibe_ucb   Shellside fluid             tei_fulibe
+HX material cost (USD/kg)        50.00   Pump cost (USD/kW)              200.00
+Shell to tube gap (mm)           9.525
+Max allowed HX radius(m)         0.850   Central downcomer OD (mm)         0.00
+Use enhanced tubes                   Y   Use stress analysis                  N
+Tube Outside diameter(mm)       14.500   Tube wall thickness(mm)        2.50000
+Radial pitch(mm)                25.000   Circumferential pitch(mm)       25.000
+Shell thickness(mm)       &      31.250   Tube sheet thickness(mm)       121.000
+Inner baffle cut (fraction)      0.450   Outer baffle cut (fraction)      0.450
+Number of tube sheets                2   Baffle thickness(mm)            12.500
+Total heat transferred(MW)        65.9   Percent of target                98.90
+Tube-side mass flow rate(kg/s)   276.0   Shellside mass flow rate(kg/s)   502.6
+Tubes-side pressure drop(MPa)  0.01871   Shellside pressure drop(MPa)   0.11243
+Exchanger internal diameter(m)  1.4500   Exchanger length(m)              5.578
+Number of baffles                   38   Baffle spacing(m)               0.1468
+Fluid volume in tubes(m3)        1.048   Heat transfer area(m2)          673.33
+Total number of tubes             2650   Total tube_length(m)             5.578
+Tube wall average temp(C)       621.97   Shell fluid volume(m3)            6.77
+Tube-side average temp(C)       548.75   Shellside average temp(C)       648.75
+Exchanger weight(kg)             28922   Exchanger material cost(USD)   1493364
+Tube-side pump kW (HX only)        2.6   Shellside pump kW (HX only)       17.0
+Pump cost (HX only) (USD)         3905   Total cost(USD)                1497270
+
+ I |shell_C|tube_od|tube_id|tubes_C| shell |shell pd| tubes |tubes pd|tubes |shell |total | Heat  | shell | tubes |
+   |       |  C    |    C  |       |   Re  |   Pa   |   Re  |   Pa   |W/m2-K|W/m2-K|W/m2-K|  MW   |  m/s  |  m/s  |
+  0|  700.0|    0.0|    0.0|  600.0|      0|       0|      0|       0|     0|     0|     0|  0.000| 0.0000| 0.0000|
+  1|  697.2|  679.1|  662.8|  597.2|   4032|    3062|   1619|     419|  1667|  5502|  1070|  1.897| 0.7895| 0.7391|
+  2|  694.3|  676.5|  660.1|  594.3|   3977|    3056|   1597|     423|  1659|  5545|  1069|  1.893| 0.7891| 0.7386|
+  3|  691.5|  673.6|  657.4|  591.5|   3922|    3051|   1574|     427|  1651|  5516|  1064|  1.885| 0.7886| 0.7381|
+  4|  688.7|  670.8|  654.6|  588.7|   3868|    3045|   1552|     431|  1643|  5488|  1060|  1.878| 0.7882| 0.7376|
+  5|  685.9|  667.9|  651.8|  585.9|   3814|    3039|   1530|     435|  1634|  5460|  1055|  1.870| 0.7878| 0.7371|
+  6|  683.1|  665.1|  649.1|  583.1|   3761|    3033|   1508|     439|  1626|  5432|  1051|  1.862| 0.7873| 0.7365|
+  7|  680.3|  662.3|  646.3|  580.3|   3709|    3027|   1487|     443|  1618|  5404|  1046|  1.854| 0.7869| 0.7360|
+  8|  677.5|  659.5|  643.6|  577.5|   3658|    3022|   1466|     447|  1609|  5376|  1042|  1.846| 0.7864| 0.7355|
+  9|  674.8|  656.8|  640.9|  574.8|   3607|    3016|   1445|     452|  1601|  5349|  1037|  1.838| 0.7860| 0.7351|
+ 10|  672.0|  654.0|  638.2|  572.0|   3557|    3010|   1424|     456|  1593|  5321|  1032|  1.829| 0.7856| 0.7346|
+ 11|  669.3|  651.2|  635.5|  569.3|   3507|    3004|   1404|     460|  1584|  5294|  1028|  1.821| 0.7852| 0.7341|
+ 12|  666.6|  648.5|  632.9|  566.6|   3458|    2999|   1384|     465|  1576|  5267|  1023|  1.813| 0.7847| 0.7336|
+ 13|  663.9|  645.8|  630.2|  563.9|   3410|    2993|   1364|     469|  1567|  5239|  1019|  1.805| 0.7843| 0.7331|
+ 14|  661.2|  643.1|  627.6|  561.2|   3362|    2988|   1344|     473|  1558|  5212|  1014|  1.796| 0.7839| 0.7326|
+ 15|  658.5|  640.4|  625.0|  558.5|   3315|    2982|   1325|     478|  1549|  5186|  1009|  1.788| 0.7835| 0.7321|
+ 16|  655.8|  637.7|  622.4|  555.8|   3269|    2976|   1306|     482|  1540|  5159|  1004|  1.780| 0.7831| 0.7317|
+ 17|  653.2|  635.0|  619.8|  553.2|   3223|    2971|   1287|     486|  1531|  5132|   999|  1.771| 0.7826| 0.7312|
+ 18|  650.5|  632.4|  617.2|  550.5|   3177|    2965|   1268|     491|  1522|  5106|   995|  1.762| 0.7822| 0.7307|
+ 19|  647.9|  629.7|  614.6|  547.9|   3133|    2960|   1250|     495|  1513|  5079|   990|  1.753| 0.7818| 0.7302|
+ 20|  645.3|  627.1|  612.1|  545.3|   3089|    2954|   1232|     499|  1503|  5053|   985|  1.744| 0.7814| 0.7298|
+ 21|  642.7|  624.5|  609.5|  542.7|   3045|    2949|   1214|     504|  1494|  5027|   979|  1.735| 0.7810| 0.7293|
+ 22|  640.1|  621.9|  607.0|  540.1|   3002|    2944|   1196|     508|  1484|  5001|   974|  1.726| 0.7806| 0.7289|
+ 23|  637.5|  619.3|  604.5|  537.5|   2960|    2938|   1179|     512|  1474|  4975|   969|  1.717| 0.7802| 0.7284|
+ 24|  634.9|  616.8|  602.1|  534.9|   2918|    2933|   1162|     516|  1464|  4950|   963|  1.707| 0.7798| 0.7280|
+ 25|  632.4|  614.2|  599.6|  532.4|   2877|    2928|   1145|     520|  1453|  4924|   958|  1.697| 0.7794| 0.7275|
+ 26|  629.9|  611.7|  597.2|  529.9|   2837|    2922|   1128|     524|  1442|  4899|   952|  1.687| 0.7790| 0.7271|
+ 27|  627.4|  609.2|  594.8|  527.4|   2797|    2917|   1112|     528|  1430|  4873|   946|  1.676| 0.7786| 0.7266|
+ 28|  624.9|  606.7|  592.4|  524.9|   2757|    2912|   1096|     531|  1418|  4848|   940|  1.665| 0.7783| 0.7262|
+ 29|  622.4|  604.3|  590.0|  522.4|   2719|    2907|   1080|     534|  1405|  4823|   933|  1.653| 0.7779| 0.7257|
+ 30|  619.9|  601.9|  587.7|  519.9|   2681|    2901|   1064|     537|  1391|  4798|   926|  1.641| 0.7775| 0.7253|
+ 31|  617.5|  599.5|  585.4|  517.5|   2643|    2896|   1048|     539|  1376|  4774|   918|  1.627| 0.7771| 0.7249|
+ 32|  615.1|  597.1|  583.2|  515.1|   2606|    2891|   1033|     540|  1359|  4749|   910|  1.612| 0.7768| 0.7245|
+ 33|  612.7|  594.8|  581.1|  512.7|   2570|    2886|   1018|     540|  1338|  4725|   900|  1.594| 0.7764| 0.7240|
+ 34|  610.3|  592.7|  579.2|  510.3|   2535|    2881|   1004|     534|  1307|  4701|   884|  1.567| 0.7760| 0.7236|
+ 35|  608.0|  590.6|  577.3|  508.0|   2500|    2876|    989|     531|  1277|  4677|   870|  1.541| 0.7757| 0.7232|
+ 36|  605.7|  588.2|  574.9|  505.7|   2467|    2871|    976|     538|  1276|  4653|   868|  1.539| 0.7753| 0.7228|
+ 37|  603.4|  585.8|  572.6|  503.4|   2433|    2867|    962|     546|  1274|  4630|   867|  1.536| 0.7750| 0.7224|
+ 38|  601.1|  583.5|  570.2|  501.1|   2400|    2862|    948|     553|  1273|  4607|   866|  1.534| 0.7746| 0.7220|
+ 39|  599.2|  581.5|  568.3|  499.2|   2376|    2863|    937|     559|  1273|  4592|   865|  1.530| 0.7754| 0.7217|
+
+target_shell_cold_C= 600.0  target_tubes_cold_C= 500.0 tubes_total_Pa=    18705
+
